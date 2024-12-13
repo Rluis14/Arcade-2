@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Your Name">
+  <title>Arcade</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <div id="game-selection" class="container">
+    <h1>Arcade</h1>
+    <h2>Choose your game</h2>
+    <button onclick="playGuessingGame()">Guessing Game</button>
+    <button onclick="playMagicBall()">Magic Ball</button>
+    <button onclick="playBNH()">Bear-Ninja-Hunter</button>
+  </div>
+
+<div id="game-reload" style="display: none;" class="container">
+    <h1>Arcade</h1>
+    <h2>Thank you for playing!</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Games Played</th>
+          <th>Games Won</th>
+          <th>Win Percentage</th>
+        </tr>
+      </thead>
+      <tbody id="stats-table-body">
+        <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>0%</td>
+        </tr>
+      </tbody>
+    </table>
+    <button onclick="reloadPage()">Reload Page</button>
+</div>
+
+  <script src="JS/script.js"></script>
+</body>
+
+</html>

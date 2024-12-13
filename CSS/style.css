@@ -1,0 +1,75 @@
+/* General styles */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #0d0d0d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #f39c12;
+    text-shadow: 2px 2px #000, 4px 4px #f39c12;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #3498db;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(145deg, #333, #000);
+    box-shadow: inset 4px 4px 8px #050505, inset -4px -4px 8px #1a1a1a;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+table th, table td {
+    border: 2px solid #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #444;
+    color: #f39c12;
+}
+
+table td {
+    background-color: #222;
+}
+
+/* Buttons */
+button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    background: #16a085;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #1abc9c;
+}
